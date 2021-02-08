@@ -12,6 +12,10 @@ category: switch
 type: Dimmer
 standard: eu
 ---
+## Warning
+
+As of Febuary 2021 this device comes with a Tuya WB3S module which cannot be flashed with Tasmota.
+---
 Once the template is applied, run the following commands to configure communication with the MCU:
 ```console
 Backlog SetOption97 1; TuyaMCU 11,1; TuyaMCU 21,2; DimmerRange 10,1000
